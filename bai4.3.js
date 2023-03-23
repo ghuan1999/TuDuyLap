@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var readline_sync_1 = require("readline-sync");
+var h = Number((0, readline_sync_1.question)("h = "));
+for (var i = 1; i <= h; i++) {
+    var s = "";
+    for (var j = 1; j <= i; j++) {
+        s += "* ";
+    }
+    console.log(s);
+}
